@@ -6,6 +6,8 @@
 using namespace std;
 
 int main() {
+
+	//To do it with stl in vector : int len = count(s.begin(), s.end(), ' ');
 	char str[100];
 	int i, len, count = 0;
 
