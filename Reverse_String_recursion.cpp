@@ -6,8 +6,7 @@ string revStr(string str , int s , int e) {
 	if (s >= e)
 		return 0;
 
-	return  revStr(str , s + 1 , e - 1);
-	swap(str[s] , str[e]);
+
 }
 int main()
 {
