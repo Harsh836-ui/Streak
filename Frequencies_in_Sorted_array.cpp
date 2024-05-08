@@ -32,7 +32,7 @@ void CountfreqMy( int arr[] , int n )
 		i++; count = 1;
 
 	}
-	if (n == 1 || arr[n - 1] != arr[n - 2])
+	if (n == 1 || arr[n - 1] != arr[n - 2])  //edge case
 		cout << arr[n - 1] << " " << 1;
 }*/
 int main()
