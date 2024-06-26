@@ -2,7 +2,7 @@
 using namespace std;
 #define nline "\n"
 
-int pfSum(int arr[] , int n) {
+pfSum(int arr[] , int n) {
 	int pf[n]; pf[0] = arr[0];
 	for (int i = 1; i < n; ++i)
 	{
